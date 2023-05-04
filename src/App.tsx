@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import { MathfieldElement } from 'mathlive';
+import { ComputeEngine } from '@cortex-js/compute-engine';
+
+const ce = new ComputeEngine();
+
 function App() {
   return (
     <div className="App">
