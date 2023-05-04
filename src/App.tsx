@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// If you comment out the next line, the error disappears.
 import { MathfieldElement } from 'mathlive';
 import { ComputeEngine } from '@cortex-js/compute-engine';
 
